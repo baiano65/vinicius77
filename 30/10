@@ -1,0 +1,274 @@
+
+Escreva um aviso para sua turma
+
+Postada por RUBIA CHRISTINE DA SILVA
+RUBIA CHRISTINE DA SILVA
+Criado em: 28 de out.28 de out.
+https://cursos.alura.com.br/certificate/rubia-christine-silva/repositorio-digital-compartilhar-seus-projetos
+
+Adicionar comentário para a turma...
+
+
+Postada por ROBERTA CRISLAINE MORETTI
+ROBERTA CRISLAINE MORETTI
+Criado em: 25 de out.25 de out.
+Certificado
+
+ROBERTA CRISLAINE MORETTI - Unidade Repositório digital_ aprenda a compartilhar seus projetos - Alura (2).pdf
+PDF
+
+Adicionar comentário para a turma...
+
+
+Postada por MARIA BEATRIZ MARIOTTO AFFONSO
+MARIA BEATRIZ MARIOTTO AFFONSO
+Criado em: 25 de out.25 de out.
+certificado
+
+MARIA BEATRIZ MARIOTTO AFFONSO - Unidade Repositório digital- aprenda a comparti.pdf
+PDF
+
+Adicionar comentário para a turma...
+
+
+Postada por YOHANA FERNANDA AMARAL DA SILVA
+YOHANA FERNANDA AMARAL DA SILVA
+Criado em: 25 de out.25 de out.
+https://cursos.alura.com.br/certificate/yohana-amaral-silva/repositorio-digital-compartilhar-seus-projetos
+
+Adicionar comentário para a turma...
+
+
+Postada por YASMIN DO NASCIMENTO MARTINS
+YASMIN DO NASCIMENTO MARTINS
+Criado em: 25 de out.25 de out.
+https://cursos.alura.com.br/certificate/yasmin-nascimento-martins/repositorio-digital-compartilhar-seus-projetos
+
+Adicionar comentário para a turma...
+
+
+Postada por FELIPE DE LUCENA SILVA
+FELIPE DE LUCENA SILVA
+Criado em: 25 de out.25 de out.
+FELIPE DE LUCENA SILVA - Curso Repositório digital: aprenda a compartilhar seus projetos - Alura
+https://cursos.alura.com.br/certificate/felipe-lucena-silva/repositorio-digital-compartilhar-seus-projetos
+
+Adicionar comentário para a turma...
+
+
+Postada por ADRIAN RIBEIRO DA SILVA
+ADRIAN RIBEIRO DA SILVA
+Criado em: 25 de out.25 de out.
+https://cursos.alura.com.br/certificate/adrian-ribeiro-silva28/repositorio-digital-compartilhar-seus-projetos
+
+Adicionar comentário para a turma...
+
+
+Postada por CAMILI RODRIGUES CARDOSO
+CAMILI RODRIGUES CARDOSO
+Criado em: 25 de out.25 de out.
+.
+
+CAMILI RODRIGUES CARDOSO - Unidade Repositório digital_ aprenda a compartilhar seus projetos - Alura.pdf
+PDF
+
+Adicionar comentário para a turma...
+
+
+Postada por HELOISA VITORIA DOS SANTOS OLIVEIRA
+HELOISA VITORIA DOS SANTOS OLIVEIRA
+Criado em: 25 de out.25 de out.
+.
+
+HELOISA VITORIA DOS SANTOS OLIVEIRA - Unidade Repositório digital_ aprenda a compartilhar seus projetos - Alura.pdf
+PDF
+
+Adicionar comentário para a turma...
+
+
+Aviso: "<body> <header>ALURAFLIX</header>…"
+MARCELO DE ASSUNCAO
+Criado em: 18 de out.18 de out.
+<body>
+
+<header>ALURAFLIX</header>
+
+
+<h1>ATRAVÉS DO ARANHAVERSO SUPERA O PRIMEIRO FILME?</h1>
+<p>#homem-aranha</p>
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gt_fAE1Eg2Q?si=c93nZtO1DTNYueO4&quot; title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+<body>
+
+Adicionar comentário para a turma...
+
+
+Aviso: "https://vscode.dev/?vscode-lang=pt-br"
+MARCELO DE ASSUNCAO
+Criado em: 18 de out.18 de out.
+https://vscode.dev/?vscode-lang=pt-br
+
+Adicionar comentário para a turma...
+
+
+Aviso: "https://docs.google.com/forms/d/1xhFQHm…"
+MARCELO DE ASSUNCAO
+Criado em: 9 de out.9 de out.
+https://docs.google.com/forms/d/1xhFQHmf4FMz5iJKd8GJXroaMVs5xm4vFMLVGi6T_d40/edit
+
+Adicionar comentário para a turma...
+
+
+Aviso: "https://editor.p5js.org/marcelopaludett…"
+MARCELO DE ASSUNCAO
+Criado em: 4 de out.4 de out.
+https://editor.p5js.org/marcelopaludetto/sketches/kjjmtyHko
+
+Adicionar comentário para a turma...
+
+Atividade: "Customizing the Screen with JavaScript"
+MARCELO DE ASSUNCAO postou uma nova atividade pelo Quizizz: Customizing the Screen with JavaScript
+Criado em: 2 de out.2 de out.
+
+Aviso: "let campoIdade; let campoFantasia;…"
+MARCELO DE ASSUNCAO
+Criado em: 2 de out.2 de out.
+let campoIdade;
+let campoFantasia;
+
+function setup() {
+  createCanvas(800, 400);
+  createSpan("Sua idade:");
+  campoIdade = createInput("5");
+  campoFantasia = createCheckbox("Gosta de fantasia?");
+}
+
+
+function draw() {
+    background("white");
+    let idade = campoIdade.value();
+    let gostaDeFantasia = campoFantasia.checked();
+    let recomendacao = geraRecomendacao(idade, gostaDeFantasia);
+
+    fill(color(76, 0, 115));
+    textAlign(CENTER, CENTER);
+    textSize(38);
+    text(recomendacao, width / 2, height / 2);
+}
+
+function geraRecomendacao(idade, gostaDeFantasia) {
+    if (idade >= 10) {
+        if (idade >= 14) {
+            return "O menino que descobriu o vento";
+        } else {
+            if (gostaDeFantasia) {
+                return "As aventuras de pi";
+            } else {
+                return "Depois da chuva";
+            }
+        }
+    } else {
+        if (gostaDeFantasia) {
+            return "A viagem de chihiro";
+        } else {
+            return "O feitiço do tempo";
+        }
+    }
+}
+
+Adicionar comentário para a turma...
+
+Atividade: "Criando mais condicionais"
+MARCELO DE ASSUNCAO postou uma nova atividade pelo Quizizz: Criando mais condicionais
+Criado em: 27 de set.27 de set.
+
+Aviso: "let campoIdade; let campoFantasia;…"
+MARCELO DE ASSUNCAO
+Criado em: 25 de set.25 de set.
+let campoIdade;
+let campoFantasia;
+
+function setup() {
+    createCanvas(400, 400);
+    campoIdade = createInput("15");
+    campoFantasia = createCheckbox("Gosta de Fantasia ?");
+}
+
+
+function draw() {
+    background(220);
+    let idade = campoIdade.value();
+    let gostaDeFantasia = campoFantasia.checked();
+    let recomendacao = geraRecomendacao(idade, gostaDeFantasia);
+    text(recomendacao, width / 2, height / 2);
+}
+
+function geraRecomendacao(idade, gostaDeFantasia) {
+    if(idade >= 10) {
+        if(idade >= 14) {
+            return "O menino que descobriu o vento";
+        } else {
+            if(gostaDeFantasia){
+                return "As aventuras de Pi";
+            } else {
+                return "Depois da chuva";
+            }
+        }
+    } else {
+        if(gostaDeFantasia) {
+            return "A viagem de Chihiro";
+        } else {
+            return "O feitiço do tempo";
+        }
+    }
+}
+
+Adicionar comentário para a turma...
+
+Atividade: "Gerando a recomendação"
+MARCELO DE ASSUNCAO postou uma nova atividade pelo Quizizz: Gerando a recomendação
+Criado em: 20 de set.20 de set.
+
+Aviso: "// fantasia, aventura, drama // a…"
+MARCELO DE ASSUNCAO
+Criado em: 17 de set.17 de set.
+// fantasia, aventura, drama
+
+// a viagem de chihiro, LIVRE, fantasia, aventura
+// paddington, LIVRE, fantasia, aventura
+
+// as aventuras de pi, 10, drama, fantasia, aventura
+// guardiões da galáxia, 12, fantasia, aventura
+// ladrões de bicicleta, 12, drama
+// o menino que descobriu o vento, 14, drama
+
+let campoIdade;
+
+function setup() {
+  createCanvas(400, 400);
+  campoIdade = createInput("5");
+}
+
+function draw() {
+  background(220);
+  let idade = campoIdade.value();
+  let recomendacao = geraRecomendacao(idade);
+  text(recomendacao, width / 2, height / 2);
+}
+
+function geraRecomendacao(idade) {
+  if(idade >= 10) {
+    if(idade >= 14) {
+      return "O menino que descobriu o vento";
+    } else {
+      return "As aventuras de pi";
+    }
+  } else {
+    return "A viagem de chihiro";
+  }
+}
